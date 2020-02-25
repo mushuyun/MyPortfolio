@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+  }
+
+
+header {
+   
+    font-size: 22px;
+    height:80px;
+    background-color: #eee;
+    border-bottom: 1px solid olive;
+}
+
+
+h3{  
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    height:80px;
+    width: 200px;
+    border:1px solid olive;
+    color: darkslategrey;
+    background-color:rgb(127, 197, 238);
+    box-shadow: dimgray;
+    text-shadow: 1px 1px 2px olive;
+}
+nav{
+    padding-top: 20px;
+    float: right;
+    margin-right: 120px;  
+}
+
+
+a {
+    text-shadow: olive;
+    color: darkslategrey;
+    border: 1px darkblue;
+    text-shadow: 1px 1px 2px olive;
+}
+
+.container {
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 20px;
+    background-color:rgb(127, 197, 238);
+    padding: 20px;
+    border: dotted 2px;
+    border-color: #fff;
+    box-shadow: -1em 0 1em rgb(180, 180, 37), -1em 1em 1em rgb(59, 59, 57);
+}
+
+.img{
+    height:270px;
+    width:200px;
+    border:1px solid purple;
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+h4 {
+    text-align: center;
+    color:darkolivegreen;
+}
+
+p {
+    float:center;
+    Margin-top: 40px;
+    font-size: 18px;
+    color: rgb(15, 11, 37);
+    
+}
+
+.card {
+    margin-left:20px;
+    margin-top: 40px;
+    font-size: xx-small;
+    background-color: #eee;
+}
+
+.card-text{
+    margin-top: 0px;
+    font-size: 16px;
+    color:blueviolet;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    padding-left: 55px;
+}
+
+.footer {
+     position: absolute;
+     bottom: 0;
+     width: 100%;       
+}
+
+.lastline {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(108, 124, 143);
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}

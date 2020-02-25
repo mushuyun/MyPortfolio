@@ -1,0 +1,60 @@
+
+header {
+   
+    font-size: 22px;
+    height:80px;
+    background-color: #eee;
+    border-bottom: 1px solid;
+}
+
+
+.container {
+    width: 50%;
+    box-shadow: none;
+    border: 1px solid olive;
+}
+
+label{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#008B8B;
+}
+
+.contact{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color:olive;
+    padding-top: 0px;
+    padding-bottom:10px;
+    text-align: center;
+    width:100%;
+    border-bottom: 1px dotted darkgreen;
+}
+
+h3{  
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    height:80px;
+    width: 200px;
+    border:1px solid olive;
+    color: darkslategrey;
+    background-color: rgb(167, 167, 126);
+    box-shadow: dimgray;
+    text-shadow: 1px 1px 2px olive;
+    background-color:rgb(127, 197, 238);
+}
+nav{
+    padding-top: 20px;
+    float: right;
+    margin-right: 120px;  
+}
+
+a {
+    text-shadow: olive;
+    color: darkslategrey;
+    border: 1px darkblue;
+}

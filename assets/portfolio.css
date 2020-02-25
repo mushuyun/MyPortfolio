@@ -1,0 +1,96 @@
+
+
+img {
+    border: 5px dotted rgb(199, 241, 149);
+    border-radius: 10%;
+}
+
+header {
+   
+    font-size: 22px;
+    height:80px;
+    background-color: #eee;
+    border-bottom: 1px solid;
+}
+
+.container {
+    width: 60%;
+    margin-top: 20px;
+    border-color: #fff;
+    padding: 20px;
+    border: dotted 1px;
+    border-color: olive;
+    box-shadow: none;
+    display: center;
+    display:flex auto;
+}
+
+
+h3{  
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    height:80px;
+    width: 200px;
+    border:1px solid olive;
+    color: darkslategrey;
+    background-color:rgb(127, 197, 238);
+    box-shadow: dimgray;
+    text-shadow: 1px 1px 2px olive;
+}
+nav{
+    padding-top: 20px;
+    float: right;
+    margin-right: 120px;  
+}
+
+
+.nav-link {
+    text-shadow: olive;
+    color: darkslategrey;
+    border: 1px darkblue;
+}
+
+.card{
+    padding: 20px;
+    margin-right: 40px;
+    margin-top:40px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+}
+
+.card-text{
+    padding-top: 15px;
+    padding-left: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top:-20px;
+    height: 60px;
+    width:21rem;
+    background-color: rgb(28, 160, 129);
+    float: left;
+    font-weight: bold;
+}
+.cord-body{
+    background-color: lightseagreen;
+}
+
+a{
+    color: darkmagenta;
+    border-bottom: 1px solid;
+   
+}
+
+h2 {
+    color: darkmagenta;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px orange;
+}
