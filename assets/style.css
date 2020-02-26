@@ -37,7 +37,7 @@ nav{
 a {
     text-shadow: olive;
     color: darkslategrey;
-    border: 1px darkblue;
+    border: 1px rgb(117, 117, 163);
     text-shadow: 1px 1px 2px olive;
 }
 
@@ -87,9 +87,32 @@ p {
 }
 
 .btn {
+    background-color:lightblue;
     display: flex;
     text-align: center;
     padding-left: 55px;
+    border:1px dotted;
+    border-bottom: 2px solid darkblue;
+    margin-top: 10px;
+    color: orangered;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.info{
+    margin-top: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.resume{
+    color: darkmagenta;
+    border-bottom: 1px solid;
+}
+
+h6{
+    text-align: center;
+    color: darkviolet;
 }
 
 .footer {

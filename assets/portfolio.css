@@ -1,10 +1,11 @@
 
 
 img {
-    border: 5px dotted rgb(199, 241, 149);
-    border-radius: 10%;
+    border: 2px dotted rgba(3, 59, 46, 0.801);
+    border-radius: 2px;
+    border-bottom: none;
 }
-
+    
 header {
    
     font-size: 22px;
@@ -15,14 +16,15 @@ header {
 
 .container {
     width: 60%;
+    margin: 0 auto;
     margin-top: 20px;
     border-color: #fff;
     padding: 20px;
     border: dotted 1px;
     border-color: olive;
     box-shadow: none;
-    display: center;
-    display:flex auto;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -53,17 +55,19 @@ nav{
 }
 
 .card{
-    padding: 20px;
-    margin-right: 40px;
+    padding:10px;
+    margin-left: 40px;
     margin-top:40px;
     display: table-cell;
+    align-items: center;
+    justify-content: center;
     vertical-align: middle;
     text-align: center;
 }
 
 .card-img-top {
     width: 300px;
-    height: 300px;
+    height: 320px;
 }
 
 .card-text{
@@ -73,7 +77,7 @@ nav{
     margin-right: -20px;
     margin-top:-20px;
     height: 60px;
-    width:21rem;
+    width:20rem;
     background-color: rgb(28, 160, 129);
     float: left;
     font-weight: bold;
@@ -93,4 +97,27 @@ h2 {
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px orange;
+}
+
+.info{
+    margin-top: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    color: darkviolet;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
