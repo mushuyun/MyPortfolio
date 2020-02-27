@@ -2,11 +2,11 @@ body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    
   }
 
 
 header {
-   
     font-size: 22px;
     height:80px;
     background-color: #eee;
@@ -128,13 +128,13 @@ h6{
 }
 
 /* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 768px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }

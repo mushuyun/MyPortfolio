@@ -1,4 +1,10 @@
 
+div.col-md-6 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 img {
     border: 2px dotted rgba(3, 59, 46, 0.801);
@@ -55,19 +61,17 @@ nav{
 }
 
 .card{
-    padding:10px;
-    margin-left: 40px;
+    display:flex;
     margin-top:40px;
     display: table-cell;
     align-items: center;
-    justify-content: center;
     vertical-align: middle;
     text-align: center;
 }
 
 .card-img-top {
-    width: 300px;
-    height: 320px;
+    width: 320px;
+    height: 350px;
 }
 
 .card-text{
@@ -111,13 +115,13 @@ h6{
 }
 
 /* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 768px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
