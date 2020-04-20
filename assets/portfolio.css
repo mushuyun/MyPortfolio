@@ -1,3 +1,10 @@
+body {
+    background-image: url("/assets/images/bk1.jpg");
+    background-size:100vw 100vh;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;  
+  }
 
 div.col-md-6 {
     margin: auto;
