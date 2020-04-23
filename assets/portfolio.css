@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/images/bk1.jpg");
+    background-image: url("images/bk1.jpg");
     background-size:100vw 100vh;
     margin: 0px;
     padding: 0px;
@@ -23,8 +23,9 @@ header {
    
     font-size: 22px;
     height:80px;
-    background-color: #eee;
+    /* background-color: #eee; */
     border-bottom: 1px solid;
+    opacity: 0.7;
 }
 
 .container {
@@ -38,8 +39,9 @@ header {
     box-shadow: none;
     align-items: center;
     justify-content: center;
+    /* background: rgba(0,0,0, .3); */
+    background: rgba(1, 1, 1, .8);
 }
-
 
 h3{  
     padding-left: 10px;
@@ -48,12 +50,14 @@ h3{
     margin-left: 300px;
     height:80px;
     width: 200px;
-    border:1px solid olive;
+    color: white;
+    /* border:1px solid olive;
     color: darkslategrey;
-    background-color:rgb(127, 197, 238);
+    background-color:rgb(127, 197, 238); */
     box-shadow: dimgray;
     text-shadow: 1px 1px 2px olive;
 }
+
 nav{
     padding-top: 20px;
     float: right;
@@ -63,10 +67,17 @@ nav{
 
 .nav-link {
     text-shadow: olive;
-    color: darkslategrey;
+    /* color: darkslategrey; */
     border: 1px darkblue;
+    color: whitesmoke;
 }
-
+a {
+    text-shadow: olive;
+    color: whitesmoke;
+    /* color: darkslategrey; */
+    /* border: 1px rgb(117, 117, 163); */
+    text-shadow: 1px 1px 2px olive;
+}
 .card{
     display:flex;
     margin-top:40px;
@@ -77,8 +88,10 @@ nav{
 }
 
 .card-img-top {
-    width: 320px;
-    height: 350px;
+    /* width: 320px;
+    height: 350px; */
+    width: 270px;
+    height: 320px;
 }
 
 .card-text{
@@ -88,7 +101,8 @@ nav{
     margin-right: -20px;
     margin-top:-20px;
     height: 60px;
-    width:20rem;
+    /* width:20rem; */
+    width:18rem;
     background-color: rgb(28, 160, 129);
     float: left;
     font-weight: bold;
@@ -104,7 +118,7 @@ a{
 }
 
 h2 {
-    color: darkmagenta;
+    color: wheat;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px orange;
@@ -118,7 +132,7 @@ h2 {
 
 h6{
     text-align: center;
-    color: darkviolet;
+    color: wheat;
 }
 
 /* Media Queries: Tablet Landscape */

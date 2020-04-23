@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/images/bk1.jpg");
+    background-image: url("images/bk1.jpg");
     background-size:100vw 100vh;
     margin: 0px;
     padding: 0px;
@@ -9,9 +9,9 @@ body {
 
 header {
     font-size: 22px;
-    height:80px;
-    background-color: #eee;
+    height:80px; 
     border-bottom: 1px solid olive;
+    opacity: 0.7;
 }
 
 
@@ -22,9 +22,9 @@ h3{
     margin-left: 300px;
     height:80px;
     width: 200px;
-    border:1px solid olive;
-    color: darkslategrey;
-    background-color:rgb(127, 197, 238);
+    /* border:1px solid olive; */
+    color: whitesmoke;
+    /* background-color:rgb(127, 197, 238); */
     box-shadow: dimgray;
     text-shadow: 1px 1px 2px olive;
 }
@@ -37,8 +37,9 @@ nav{
 
 a {
     text-shadow: olive;
-    color: darkslategrey;
-    border: 1px rgb(117, 117, 163);
+    color: whitesmoke;
+    /* color: darkslategrey; */
+    /* border: 1px rgb(117, 117, 163); */
     text-shadow: 1px 1px 2px olive;
 }
 
@@ -46,7 +47,9 @@ a {
     border-radius: 5px;
     width: 70%;
     margin-top: 20px;
-    background-color:rgb(127, 197, 238);
+    /* background-color:rgb(227, 232, 235); */
+    background: rgba(2,2,0, .7);
+    
     padding: 20px;
     border: dotted 2px;
     border-color: #fff;
@@ -70,7 +73,8 @@ p {
     float:center;
     Margin-top: 40px;
     font-size: 18px;
-    color: rgb(15, 11, 37);
+    /* color: darkblue; */
+    color: wheat;
     
 }
 
@@ -92,8 +96,8 @@ p {
     display: flex;
     text-align: center;
     padding-left: 55px;
-    border:1px dotted;
-    border-bottom: 2px solid darkblue;
+    /* border:1px dotted; */
+    /* border-bottom: 2px solid darkblue; */
     margin-top: 10px;
     color: orangered;
     font-family: cursive;
@@ -107,13 +111,13 @@ p {
 }
 
 .resume{
-    color: darkmagenta;
+    color: wheat;
     border-bottom: 1px solid;
 }
 
 h6{
     text-align: center;
-    color: darkviolet;
+    color: whitesmoke;
 }
 
 .footer {
