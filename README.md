@@ -1,5 +1,5 @@
 # MyPortfolio
-Portfolio contains my recent app design
+### Portfolio contains my featured app designs. ###
 
 https://mushuyun.github.io/MyPortfolio/
 
